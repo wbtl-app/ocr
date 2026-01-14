@@ -1,5 +1,24 @@
-# ocr
+# Text Recognition
 
-A wbtl.app tool.
+Extract text from images using OCR.
 
-Visit: https://ocr.wbtl.app
+## Development
+
+### Setup
+```bash
+npm install
+```
+
+### Build
+```bash
+npm run build
+```
+
+## Output
+
+Production files are in the `dist/` folder:
+- `dist/index.html` - Main application
+
+## Deploy
+
+Copy the contents of `dist/` to any static hosting service.
